@@ -1,0 +1,14 @@
+print("bunny"*10)
+print("bunny\n"*10)
+a=10
+b=20
+print("before",a,b)
+a=temp
+a=b
+b=temp
+print("after",a,b)
+a=100
+b=200
+print("before",a,b)
+a,b=b,a
+print("after",a,b)

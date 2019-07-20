@@ -1,0 +1,85 @@
+what is software?
+it is a collection of programs 
+what is program?
+it is a collection of statments.
+a instruction given to an electronic device.
+how to give a instruction to an ed (electronic device) by programing language
+> what is python it is a general purpose programing language.
+
+how many softwares we have?
+>>there are two softwares one is system software another one is application software
+ (system software is nothing but a  operating syatems example windows mac os and syatem software is interface between computer hardware and user.)
+>> application software it is we have two types standlon application and distributed application 
+Standalon apllication :-the application which are installed in your local machine and run inthe same machine called standlon application
+example:ms office,vlc player etc.
+Ditributed application :- the software which are installed in  server machine and run inthe  browser called as distributed application 
+example: google chrome,mozilla,facebook whatsapp.
+what is programming language?
+it is a media to communicate electronic device.
+What is python ?
+it is a general purpose programming language to develop a software.
+what are keywords?
+keywords are reserved words by python to define a syntax of a program.
+
+>as per 3.6.4 version we have 33 keywords.
+what kind of applications we can develop using python?
+we can develop web applications,desktop applications,aws,devops, iot,database,animation,games,graphics,
+artificial intellligence,embeded sytems,deep learning.
+Important Points:-
+1.Python is simple because of easy syntax.
+2.Python is very popular because of rich library assert.
+3.python is free and open source.
+4.Python is interpreter (it analyse and execute line by line) to run the program
+5.Python supports procedure oriented porgramming(POP),Object oriented programmming(OOP)and lambda Functions.
+6.Python programming also called as a scripting language.
+7.Python is extensible and embidable.
+8.In Python everything is represented in object.
+9.Python will run Equally on different paltform like windows.linux, unix etc.
+=================================================================================================
+To view list of Keywords
+import keyword  >>>>>here import is a keyword and keyword is a module(any.py file is called as module) 
+print(keyword.kwlist)>>>>>>>>>>>>print is function and kwlist is variable.
+-------------or-----------
+import keyword as kk>>>>>>>>>>here kk is a alilis name of keyword
+print(kk.kwlist)
+=================================================================================================
+Identifiers :-
+it is a name given to an entity like class, function/method,variable.
+Class:-is a collection of variables and functions.
+Function/method:- function is a collection of statements which perform an operation.
+Variable:-the above two are not matching it is variable. 
+>>>identifiers must begin with alphabet or underscore(_).
+>>>identifier can have small atoz,capital AtoZ,0to9 and (_)
+>>>identifier should not match with Keywords
+>>>Wide space is not allowed.
+Example:- 
+idno
+id_no        idno_        1idno                 _1_          _                __               import          Import       True           true      id no      id_no    Id1no
+
+
+===================================================================================
+Variable:-
+it is a named memory location which holds some data.
+>>> The variables are dynamic type which means the type of  variable which are decided at runtime.
+Syntax:-
+variable name=value
+Ex:-idno=100
+x=100
+print(x)
+Output:- 100
+a="bunny"
+print(a)
+Output:-bunny
+b=0606
+print(b)
+Output:-0606
+=================================================================================
+One more example of Variable
+a=143
+print(a)    #143                                           # it means comment in #(hashtag) we can write expected output which is not exceed morethan one line
+
+print(type(a))   #<class 'int'>
+
+a="Bunny"
+print(a)  #"Bunny"
+print(type(a))     #<class 'str'>

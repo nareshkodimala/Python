@@ -1,0 +1,22 @@
+keywords are reserved words by python
+as per 3.6.4 version we have 33 keywords
+
+what are identifiers
+identifires are name given to an entity
+like class function/method, variable
+what is programimng language?
+it is media to communicate electronic device.
+what is software?
+software is a collection of statements and give intrsction to electronic device
+types of softwares?
+system softwares and  application softwares
+in apllication softwares they are divided by 2 types that is standalon software and distributed software
+standalon softwares:-the software which are intalled in local machine and run in a same machine called standalon softwares 
+examples:-vlc ,antivirus etc.
+Distributed softwares:- which are installed in server machine and run in the browser is knoews as distributed software 
+example:-chrome, firefox etc.
+what are entities ?
+Class,function/method ,variable.
+Class:-it is a collection of functions and variable.
+Functions/method:-it is a collection of statemnts which perform a operation.
+Variable:-The above statements which are not matching this is called variable.

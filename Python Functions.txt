@@ -1,0 +1,104 @@
+                                                      FUNCTIONS
+
+Functions it is a collection of statments which perform an operation.
+>> To define a function we use "def" keyword
+
+>>The function which is defined  once can called multiple times. 
+      (advantages of functions)
+       1.which is nothing but a code reusability.
+       2.easy to modify
+       3.easy to debug
+====================================================
+Syntax :-
+def           function_name():                       here (def) is a keyword 
+0000000	--------------------
+	--------------------	
+	----------------------
+To call a function we use function name.
+
+Example1:-
+...........................
+def         show():
+             print("iam show function")
+show()
+ 
+Output:-
+iam show function
+============================================
+Example2:-
+def         fun1():
+              print("iam fun1")
+def         fun2():
+              print("iam fun2")
+fun2()
+fun1()
+fun1()
+fun2()
+
+Output:-
+iam fun2
+iam fun1
+iam fun1
+iam fun2
+================================================
+
+
+ extra points:-
+>>what is error : (these mistakes are made by developer) or the developer provinding a wrong syntax  it will cause an error.
+>>what is an Exception :- it is an runtime error (the user providing an wrong information is callled exception) ex: photo size in application. 
+>>Bug :- it is an runtime error(the process is done but the program will not excecute) ex :atm.
+===================================================================================================
+advantages of functions:-
+1.code reusability
+2.easy to modify
+3.easy to debug
+==========================================================================================
+Example:-
+print("hello"):
+def  show():
+       print("function1")
+print("Bunny",*4)
+def    display():
+        print("iam dispaly")
+       print("bye")
+show()
+dispaly()
+
+Output:-
+hello
+function1
+iam display
+bye	
+===============================================================================
+EXample2
+print("a simple calculation")
+def     add():
+         print("iam add")
+         print("sum of=",10+25)
+         sub()
+print("add")
+def    sub():
+        print("iam sub")	
+        mul()
+        print("sub of =",50-32)
+print("sub")
+def    mul():
+        print("iam mul")
+        print("mul of =",20*2)
+print("mul")
+add()
+print("thanks")
+
+Output :-
+ a simple calculation
+add
+sub
+mul
+iam add
+sum of=35
+iam sub
+iam mul
+mul of=40
+sub of=18
+thanks
+================================================================================================

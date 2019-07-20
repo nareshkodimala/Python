@@ -1,0 +1,69 @@
+Steps To Set PIP Path:-
+1.Install Python
+2.Open Python Software in Computer The path is: C:\Users\Hi\Appdata\Local\Programs\Python\Python36\Scripts
+                                                                                               here Hi is Nothing but  Your PC name.
+
+3.Copy The Path and Paste It Into System Variables.
+
+===================================================================
+To Open System Variables:-
+1. Right click on my computer select properties
+2.Select advanced sytem settings
+3.Click on Environmental variables
+4.Select path in System variables and Click on edit button
+5.In variable value end with (;) there we can write  (;.;) this and paste the path what the path we have copied earlier.
+6.Then Click all OK .
+===================================================================== 
+To check PIP path is set or not 
+
+1.Open new command prompt and type the command as Pip
+
+2.To view List of installed packeges and type the command as Pip list.
+
+To install Django:-
+1.In command prompt 
+2.Type command as pip install django(packege name)
+3.to uninstall django in command prompt 
+4.Type command as Pip uninstall django.
+==============================================================================================
+Working with Pillow:-
+The Pillow packege is providing library called PIL(Python Image Library)
+TO Work with pillow we need to install pillow using pip
+command is :- pip install pillow
+===============================================================
+Example program:-
+1)Write a program To open an image
+
+from PIL import Image
+ref=Image.open("filename(ex:imagename).fileformat(ex:jpg)"
+ref.show()
+================================================================
+Example Program2:-
+2)Write a program To Open an image and rotate.
+
+from PIL import Image
+ref=Image.open("imagename.imagetype")
+ref1=ref.rotate(90)
+ref1.show()
+
+=======================================================================
+Example Program3:-
+3)Write a Program to Convert an image to Grayscale(Black&White) and disply and save.
+
+from PIL import Image
+ref=Image.open("imagename.imagetype")
+ref1=ref.convert("L")
+ref1.show()
+ref1.save("imagename.imagetype")
+===========================================================================
+Example Program4:-
+4)Write a program to display size of image and resize the image.
+
+from PIL import Image
+ref=Image.open("imagename.imagetype")
+print(ref.size)
+ref1=ref.resize((2000,3000))  ---------(2000,3000 are nothing but a size of the image what do you want to resize you can mention here)
+print("ref1.size")
+ref1.show()
+ref1.save("imagename.imagetype")
+
