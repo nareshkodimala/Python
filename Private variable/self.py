@@ -11,6 +11,6 @@ e1.assign(101,"naresh")
 x=e1.display()
 
 x=1
-print(eval('x+1')) 
+print(eval('x+1'))
 
 
